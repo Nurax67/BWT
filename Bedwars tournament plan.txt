@@ -1,15 +1,42 @@
 1. Minecraft Plugin
-a. Bedwars Plugin
-i. 4 Server, pro Server 2 mal 16 Spieler Bedwars Games
-1. Datenbank mit Ergebnissen
-b. Lobby Plugin
-i. 4 Server je max 40 Spieler (Datenbank)
+	Bedwars Plugin
+		4 Server, pro Server 2 mal 16 Spieler Bedwars Games
+		Datenbank mit Ergebnissen
+		Logik:
+			- wählen aus momentanen Spielern online
+				wenn möglich: Games immer neu zusammen stellen
+				jedes Game in Datenbank gesaved -> Abgleich der Teams
+			- Belohnung nach Plätzen
+				Platz 1: +7
+				Platz 2: +6
+				Platz 3: +5
+				Platz 4: +4
+				Platz 5: +3
+				Platz 6: +2
+				Platz 7: +1
+				Platz 8: +0
+			- jedes Team darf 3 mal unter Platz 6,7,8 sein (unter Platz 5)
+				danach: Ausscheid
+			- disconnecting:
+				wenn ein Spieler disconnected: kann reconnecten, solange anderer Spieler alive
+				wenn beide disconnected: von Game gesperrt, kein reconnect -> join in Lobby
+ 	Lobby Plugin
+		4 Server je max 40 Spieler (Datenbank)
 2. Datenbank
-a. Ergebnisse
+	speichert Games (aufsteigend nummeriert) mit jeweiligen Teams
+ 	speichert pro Team: Game und Punkte, Gesamtpunktzahl
+		wenn game zu Ende, bisherige Gesamtpunktzahl (von Plugin angefordert) plus neue Punkte übermittlet 
 3. Discord Server
-a. Pro team speakchannel
-b. Bot mit Ergebnissen
-i. Bezug von Datenbank
-4. Bedwars Worlds
-a. 8 Teams mit je 2 Spielern
+ 	Pro team speakchannel
+	All chat
+	Support chat
+ 	Bot mit Ergebnissen
+ 		Bezug von Datenbank
+		- fragt nach Team 	-> zeigt Gesamtpunktzahl an
+					-> zeigt Geamse mit jeweiligen Teams an
+4. Minecraft Worlds
+	4 unterschiedliche Bedwars Maps
+		- 8 Teams mit je 2 Spielern
+	Lobby Map
+		- auf jedem Server gleich
 	
