@@ -1,0 +1,15 @@
+1. Minecraft Plugin
+a. Bedwars Plugin
+i. 4 Server, pro Server 2 mal 16 Spieler Bedwars Games
+1. Datenbank mit Ergebnissen
+b. Lobby Plugin
+i. 4 Server je max 40 Spieler (Datenbank)
+2. Datenbank
+a. Ergebnisse
+3. Discord Server
+a. Pro team speakchannel
+b. Bot mit Ergebnissen
+i. Bezug von Datenbank
+4. Bedwars Worlds
+a. 8 Teams mit je 2 Spielern
+	
