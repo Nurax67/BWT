@@ -22,6 +22,7 @@
 				wenn beide disconnected: von Game gesperrt, kein reconnect -> join in Lobby
  	Lobby Plugin
 		4 Server je max 40 Spieler (Datenbank)
+		Hologram mit top 10
 2. Datenbank
 	speichert Games (aufsteigend nummeriert) mit jeweiligen Teams
  	speichert pro Team: Game und Punkte, Gesamtpunktzahl
@@ -33,7 +34,7 @@
  	Bot mit Ergebnissen
  		Bezug von Datenbank
 		- fragt nach Team 	-> zeigt Gesamtpunktzahl an
-					-> zeigt Geamse mit jeweiligen Teams an
+					-> zeigt Games mit jeweiligen Teams an
 4. Minecraft Worlds
 	4 unterschiedliche Bedwars Maps
 		- Wüsten Map
