@@ -36,6 +36,10 @@
 					-> zeigt Geamse mit jeweiligen Teams an
 4. Minecraft Worlds
 	4 unterschiedliche Bedwars Maps
+		- Wüsten Map
+		- Spruce Forest Map
+		- Space Map (End themed)
+		- Nether Map
 		- 8 Teams mit je 2 Spielern
 	Lobby Map
 		- auf jedem Server gleich
